@@ -1,0 +1,20 @@
+{
+    "name": "gatherproduct/liwanli",
+    "description": "采集商品",
+    "authors": [
+        {
+            "name": "liwanli",
+            "email": "3196672779@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GatherProduct\\": "./src/"
+        }
+    },
+    "require": {
+        "pimple/pimple": "^3.2",
+        "psr/simple-cache": "^1.0",
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}
